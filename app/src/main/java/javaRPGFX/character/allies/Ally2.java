@@ -14,14 +14,12 @@ public class Ally2 extends Character {
     public String magic1(Character c){
         tmp = "";
         this.mpCost = 10;
-        //System.out.println(String.format("%sはブリザドをこころみた!",super.getName()));
         if((super.getMp() - mpCost) >= 0){
             super.setMp(super.getMp() - mpCost);
             tmp = c.damaged(c,80);
         }
         else {
             tmp ="しかしMPがたりなかった.";
-            //System.out.println("しかしMPがたりなかった．");
         }
         return tmp;
     }
@@ -30,12 +28,10 @@ public class Ally2 extends Character {
     public String magic2(Character c){
         tmp = "";
         this.mpCost = 0;
-        //System.out.println(String.format("%sはエリクサーをつかった!",super.getName()));
         Random random = new Random();
         int healValue = random.nextInt(10) + 5;
         if((super.getMp() - mpCost) >= 0){
             super.setMp(super.getMp() - mpCost);
-            //System.out.println(String.format("%sのMPが%dかいふくする!",c.getName(),healValue));
             tmp = String.format("%sのMPが%dかいふくする!",c.getName(),healValue);
             c.healMP(healValue);
         }

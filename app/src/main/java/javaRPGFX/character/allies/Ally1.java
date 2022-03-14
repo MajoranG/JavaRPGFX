@@ -14,13 +14,11 @@ public class Ally1 extends Character{
     public String magic1(Character c[]){
         tmp="";
         this.mpCost = 10;
-        //System.out.println(String.format("%sはPKキアイαをこころみた!",super.getName()));
         if((super.getMp() - mpCost) >= 0){
             super.setMp(super.getMp() - mpCost);
             tmp += super.attackAll(c,0);
         }
         else {
-            //System.out.println("しかしMPがたりなかった．");
             tmp="しかしMPがたりなかった.";
         }
         return tmp;
@@ -29,8 +27,6 @@ public class Ally1 extends Character{
     public String magic2(Character c){
         tmp ="";
         this.mpCost = 5;
-        //System.out.println(String.format("%sはライフアップβをこころみた!",super.getName()));
-        //tmp = String.format("%sはライフアップβをこころみた!\n",super.getName());
         Random random = new Random();
         int healValue = random.nextInt(30) + 40;
         if((super.getMp() - mpCost) > 0){
@@ -42,7 +38,6 @@ public class Ally1 extends Character{
             else tmp+= "しかしなにもおこらなかった.";
         }
         else {
-            //System.out.println("しかしMPがたりなかった．");
             tmp="しかしMPがたりなかった.";
         }
         return tmp;

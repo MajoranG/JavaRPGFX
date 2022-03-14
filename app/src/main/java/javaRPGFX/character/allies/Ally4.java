@@ -19,7 +19,6 @@ public class Ally4 extends Character{
             tmp += super.attackAll(c,123);
         }
         else {
-            //System.out.println("しかしMPがたりなかった．");
             tmp="しかしMPがたりなかった.";
         }
         return tmp;
@@ -32,7 +31,6 @@ public class Ally4 extends Character{
         int healValue = random.nextInt(30) + 100;
         if((super.getMp() - mpCost) > 0){
             super.setMp(super.getMp() - mpCost);
-            //System.out.println(String.format("%sのHPが%dかいふくする!",c.getName(),healValue));
             if(c.getHp()==0){
                 c.heal(healValue);
                 tmp += String.format("%sはカムバックした!",c.getName());
@@ -40,7 +38,6 @@ public class Ally4 extends Character{
             else tmp += "しかしなにもおこらなかった.";
         }
         else {
-            //System.out.println("しかしMPがたりなかった．");
             tmp="しかしMPがたりなかった.";
         }
         return tmp;

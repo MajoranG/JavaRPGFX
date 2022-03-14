@@ -20,7 +20,6 @@ public class Ally3 extends Character{
         }
         else {
             tmp ="しかしMPがたりなかった.";
-            //System.out.println("しかしMPがたりなかった．");
         }
         return tmp;
     }

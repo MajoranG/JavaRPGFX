@@ -12,13 +12,11 @@ public class Enemy1 extends Character{
     public String magic1(Character c[]){
         tmp ="";
         this.mpCost = 5;
-        //System.out.println(String.format("%sはPKファイヤーαをこころみた!",super.getName()));
         if((super.getMp() - mpCost) >= 0){
             super.setMp(super.getMp() - mpCost);
             tmp += super.attackAll(c,0);
         }
         else {
-            //System.out.println("しかしMPがたりなかった．");
             tmp = "しかしMPがたりなかった.";
         }
         return tmp;
@@ -38,8 +36,6 @@ public class Enemy1 extends Character{
     @Override
     public String talk(){                             //敵はしゃべれる
         tmp = "";
-        //System.out.println(String.format("てきの%sはとうとつにしゃべりはじめた．",super.getName()));
-        //tmp += String.format("てきの%sはとうとつにしゃべりはじめた.",super.getName());
         Random random = new Random();
         int a = random.nextInt(10);
         switch (a){

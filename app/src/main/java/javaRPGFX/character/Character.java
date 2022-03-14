@@ -18,19 +18,15 @@ public abstract class Character{
         Random rand = new Random();
         int dmgVal = rand.nextInt(20) + this.getAp()-5;        //ダメージ量
         if(c.getHp() != 0){
-            //System.out.println(this.getName()+"のこうげき!");
             if(getLuck()){
                 tmp = c.damaged(c,dmgVal);
-                //System.out.println(String.format("%sに%dのダメージ!",c.getName(),dmgVal));
             }
             else{
                 tmp = "からぶりー!";
-                //System.out.println("からぶりー!");
             }
         }
         else {
             tmp = "エラー";
-            //System.out.println("エラー");
         }
         return tmp;
     }
@@ -46,11 +42,9 @@ public abstract class Character{
             if(opponent.getHp() != 0){
                 if(getLuck()){
                     tmp += opponent.damaged(opponent,dmgVal);
-                    //System.out.println(String.format("%sに%dのダメージ!",opponent.getName(),dmgVal));
                 }
                 else if(getLuck() == false){
                     tmp +="からぶりー! ";
-                    //System.out.println("からぶりー!");
                 }
             }
         }
@@ -77,7 +71,6 @@ public abstract class Character{
     public String damaged(Character chara,int dmgValue){                 //攻撃を受けた時のメソッド
         tmp = "";
         if(this.hp-dmgValue>0){
-            //System.out.println(String.format("%sに%dのダメージ!",chara.getName(),dmgValue));
             tmp = String.format("%sに%dのダメージ! ",chara.getName(),dmgValue);
             setHp(this.hp - dmgValue);
         }
