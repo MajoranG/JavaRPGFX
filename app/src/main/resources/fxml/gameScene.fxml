@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="gameScene1Pane" fx:id="gameScene1Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgba(0,0,0,0);" stylesheets="@../css/game_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.game.GameSceneController">
+   <children>
+      <Rectangle id="lowerRectangle" fx:id="lowerRectangle" arcHeight="5.0" arcWidth="5.0" height="97.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Rectangle id="upperRectangle" fx:id="upperRectangle" arcHeight="5.0" arcWidth="5.0" height="97.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Rectangle id="textBoxRect" fx:id="textBoxRect" arcHeight="5.0" arcWidth="5.0" fill="#070707" height="87.0" layoutX="94.0" layoutY="4.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="408.0" />
+      <Text id="gameEventTxt" fx:id="gameEventTxt" fill="WHITE" layoutX="114.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="369.515625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

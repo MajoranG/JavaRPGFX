@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="titleView" fx:id="titleView" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@../css/title_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.title.TitleMenuController">
+   <children>
+      <Label id="titleField" fx:id="titleField" layoutX="176.0" layoutY="75.0" prefHeight="88.0" prefWidth="248.0" text="JavaRPGFX" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <Label id="startLabel" fx:id="startLabel" layoutX="300.0" layoutY="200.0" prefHeight="33.0" prefWidth="67.0" text="はじめる" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="exitLabel" fx:id="exitLabel" layoutX="300.0" layoutY="246.0" prefHeight="33.0" prefWidth="59.0" text="おわる" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView id="titlePointer" fx:id="titlePointer" layoutX="256.0" layoutY="202.0">
+         <image>
+            <Image url="@../asset/pointerTitle.png" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</Pane>

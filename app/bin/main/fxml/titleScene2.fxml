@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="titleScene2Pane" fx:id="titleScene2Pane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@../css/title2_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.title.TitleScene2Controller">
+   <children>
+      <Label id="line1" fx:id="line1" layoutX="115.0" layoutY="119.0" prefHeight="41.0" prefWidth="370.0" text="A　B　C　D　E　F　G　H　I　J　K　L　M" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="line2" fx:id="line2" layoutX="115.0" layoutY="153.0" prefHeight="41.0" prefWidth="370.0" text="N　O　P　Q　R　S　T　U　V　W　X　Y　Z" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="nameTextLabel" fx:id="nameTextLabel" layoutX="247.0" layoutY="299.0" prefHeight="41.0" prefWidth="106.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView id="cursor" fx:id="cursor" layoutX="96.0" layoutY="131.0">
+         <image>
+            <Image url="@../asset/cursor.png" />
+         </image>
+      </ImageView>
+      <Label id="line3" fx:id="line3" layoutX="115.0" layoutY="186.0" prefHeight="41.0" prefWidth="370.0" text="a　b　c　d　e　f　g　h　i　j　k　l　m" textFill="WHITE">
+         <font>
+            <Font size="19.6" />
+         </font>
+      </Label>
+      <Label id="line4" fx:id="line4" layoutX="115.0" layoutY="217.0" prefHeight="41.0" prefWidth="370.0" text="n　o　p　q　r　s　t　u　v　w　x　y　z" textFill="WHITE">
+         <font>
+            <Font size="19.2" />
+         </font>
+      </Label>
+      <Text id="wynText" fx:id="wynText" fill="WHITE" layoutX="211.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="なまえは？">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text id="nextToButtonTxt" fx:id="nextToButtonTxt" fill="WHITE" layoutX="452.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="けってい">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text id="backToButtonTxt" fx:id="backToButtonTxt" fill="WHITE" layoutX="95.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="もどる">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="gameMainPane" fx:id="gameMainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/game_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.game.GameMainController">
+   <children>
+      <fx:include fx:id="gameScene" source="gameScene.fxml" />
+      <fx:include fx:id="gameMenu" source="gameMenu.fxml" />
+      <fx:include fx:id="gameBack" source="gameBack.fxml" />
+      <Rectangle id="levelSelectBox" fx:id="levelSelectBox" arcHeight="5.0" arcWidth="5.0" height="70.0" layoutX="190.0" layoutY="162.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" width="240.0" />
+      <Text id="iie" fx:id="iie" fill="WHITE" layoutX="340.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X:いいえ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="hai" fx:id="hai" fill="WHITE" layoutX="246.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Z:はい">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="hardModeTxt" fx:id="hardModeTxt" fill="WHITE" layoutX="223.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ハードモードをプレイしますか?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

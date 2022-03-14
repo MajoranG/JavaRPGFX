@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'JF Dot Shinonome Gothic 14';
+    font-style: normal;
+    font-weight: normal;
+    src: url('@../../../JF-Dot-Shinonome14.ttf') format('truetype');
+}
+
+#titleField {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 54px;
+}
+
+#startLabel {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 16px;
+}
+
+#exitLabel {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 16px;
+}

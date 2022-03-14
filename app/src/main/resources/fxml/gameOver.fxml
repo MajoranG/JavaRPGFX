@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane id="gameOverScenePane" fx:id="gameOverScenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@../css/game_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.game.GameOverController">
+   <children>
+      <Text id="gmOtext" fx:id="gmOtext" fill="WHITE" layoutX="230.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press Z to try again!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="gmOverTxt" fx:id="gmOverTxt" fill="#7c0000" layoutX="188.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

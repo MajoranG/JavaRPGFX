@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="gameMenuPane" fx:id="gameMenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgba(0,0,0,0);" stylesheets="@../css/game_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.game.GameMenuController">
+   <children>
+      <Rectangle id="choiceBoxRect" fx:id="choiceBoxRect" arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="33.0" layoutY="6.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="150.0" />
+      <Text id="allyNameText" fx:id="allyNameText" fill="WHITE" layoutX="47.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="menuTx1" fx:id="menuTx1" fill="WHITE" layoutX="58.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="たたかう">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="menuTx2" fx:id="menuTx2" fill="WHITE" layoutX="58.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="まほう">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Rectangle id="magicChoiceBox" fx:id="magicChoiceBox" arcHeight="5.0" arcWidth="5.0" height="96.0" layoutX="202.0" layoutY="6.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="354.0" />
+      <Text id="magicNameText1" fx:id="magicNameText1" fill="WHITE" layoutX="243.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magic1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="magicNameText2" fx:id="magicNameText2" fill="WHITE" layoutX="243.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magic2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Rectangle id="targetChoiceBox" fx:id="targetChoiceBox" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="118.0" layoutY="81.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="387.0" />
+      <Text id="target1Txt" fx:id="target1Txt" fill="WHITE" layoutX="153.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="target2Txt" fx:id="target2Txt" fill="WHITE" layoutX="239.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="target3Txt" fx:id="target3Txt" fill="WHITE" layoutX="327.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="target4Txt" fx:id="target4Txt" fill="WHITE" layoutX="412.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView id="gameMenucursor" fx:id="gameMenucursor" layoutX="39.0" layoutY="32.0">
+         <image>
+            <Image url="@../asset/cursor.png" />
+         </image>
+      </ImageView>
+      <ImageView id="ally1RectImg" fx:id="ally1RectImg" layoutX="97.0" layoutY="298.0">
+         <image>
+            <Image url="@../asset/statusRect.png" />
+         </image>
+      </ImageView>
+      <Rectangle id="magicInfoBox" fx:id="magicInfoBox" arcHeight="5.0" arcWidth="5.0" height="78.0" layoutX="345.0" layoutY="3.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" width="186.0" />
+      <Text id="magicInfoTxt" fx:id="magicInfoTxt" fill="WHITE" layoutX="354.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MagicInfo">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="ally1Name" fx:id="ally1Name" fill="WHITE" layoutX="113.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView id="ally2RectImg" fx:id="ally2RectImg" layoutX="204.0" layoutY="298.0">
+         <image>
+            <Image url="@../asset/statusRect.png" />
+         </image>
+      </ImageView>
+      <ImageView id="ally3RectImg" fx:id="ally3RectImg" layoutX="316.0" layoutY="298.0">
+         <image>
+            <Image url="@../asset/statusRect.png" />
+         </image>
+      </ImageView>
+      <ImageView id="ally4RectImg" fx:id="ally4RectImg" layoutX="424.0" layoutY="298.0">
+         <image>
+            <Image url="@../asset/statusRect.png" />
+         </image>
+      </ImageView>
+      <Text id="ally2Name" fx:id="ally2Name" fill="WHITE" layoutX="220.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="ally3Name" fx:id="ally3Name" fill="WHITE" layoutX="330.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="ally4Name" fx:id="ally4Name" fill="WHITE" layoutX="439.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="ally1HP" fx:id="ally1HP" layoutX="148.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="999">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally1MP" fx:id="ally1MP" layoutX="148.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="999">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally2MP" fx:id="ally2MP" layoutX="257.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally2HP" fx:id="ally2HP" layoutX="257.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally3MP" fx:id="ally3MP" layoutX="368.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally3HP" fx:id="ally3HP" layoutX="368.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally4MP" fx:id="ally4MP" layoutX="477.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text id="ally4HP" fx:id="ally4HP" layoutX="477.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

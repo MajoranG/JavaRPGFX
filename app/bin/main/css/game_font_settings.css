@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'JF Dot Shinonome Gothic 14';
+    font-style: normal;
+    font-weight: normal;
+    src: url('@../../../JF-Dot-Shinonome14.ttf') format('truetype');
+}
+/*----------------------gameMenu.fxml--------------------------------*/
+#menuTx1,#menuTx2,#allyNameText{
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 14px;
+}
+
+#magicNameText1,#magicNameText2,#magicInfoTxt {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 16px;
+}
+
+#target1Txt,#target2Txt,#target3Txt,#target4Txt {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 16px;
+}
+
+#ally1Name,#ally2Name,#ally3Name,#ally4Name {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 16px;
+}
+
+#ally1HP,#ally2HP,#ally3HP,#ally4HP {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 14px;
+}
+
+#ally1MP,#ally2MP,#ally3MP,#ally4MP {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 14px;
+}
+
+/*----------------------gameMain.fxml--------------------------------*/
+#hardModeTxt,#hai,#iie {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 13px;
+}
+
+/*----------------------gameScene.fxml--------------------------------*/
+#gameEventTxt {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 18px;
+}
+
+/*----------------------gameOver.fxml--------------------------------*/
+#gmOtext {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 14px;
+}
+#gmOverTxt {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 50px;
+}
+
+/*----------------------gameClear.fxml--------------------------------*/
+#tyMsg {
+    -fx-font-family: "JF Dot Shinonome Gothic 14";
+    -fx-font-size: 18px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="gameClearPane" fx:id="gameClearPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/game_font_settings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaRPGFX.gui2.game.GameClearController">
+   <children>
+      <TextFlow id="textFlow" fx:id="textFlow" layoutX="40.0" layoutY="105.0" prefHeight="106.0" prefWidth="521.0" textAlignment="CENTER" />
+      <Text id="tyMsg" fx:id="tyMsg" fill="#daa104" layoutX="201.0" layoutY="330.0" stroke="#d7c500" strokeWidth="0.2" text="Thank you for playing!" />
+   </children>
+</Pane>

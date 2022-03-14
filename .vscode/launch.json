@@ -1,0 +1,42 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch GameLauncher",
+            "request": "launch",
+            "mainClass": "javaRPGFX.GameLauncher",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "javaRPGFX.App",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch BattleSystem",
+            "request": "launch",
+            "mainClass": "javaRPGFX.gui2.BattleSystem",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch GUILaunch",
+            "request": "launch",
+            "mainClass": "javaRPGFX.gui2.GUILaunch",
+            "projectName": "app"
+        }
+    ]
+}
