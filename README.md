@@ -9,7 +9,8 @@ JavaFXで某RPG風の戦闘システムを作ろうとしたものです。
 ## How to run this
 ### 1. Gradle、Java導入済みの場合
 ```
-git clone https://github.com/MajoranG/JavaRPGFX`
+git clone https://github.com/MajoranG/JavaRPGFX
+cd JavaRPGFX
 gradle run
 ```
 または  
