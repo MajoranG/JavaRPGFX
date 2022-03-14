@@ -16,7 +16,7 @@ JavaFXで某RPG風の戦闘システムを作ろうとしたものです。
 
 ### 2. Javaを導入済みの場合(Windows)
 `git clone https://github.com/MajoranG/JavaRPGFX`  
-`gradlew`
+`gradlew`  
 `Java -jar app/build/libs/app-all.jar`  
 
 工事中
