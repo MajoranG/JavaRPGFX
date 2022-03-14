@@ -14,7 +14,7 @@ JavaFXで某RPG風の戦闘システムを作ろうとしたものです。
 `gradle build`  
 `Java -jar app/build/libs/app-all.jar`  
 
-### 1. Javaを導入済みの場合(Windows)
+### 2. Javaを導入済みの場合(Windows)
 gradlew.bat を実行  
 `Java -jar app/build/libs/app-all.jar`  
 
